@@ -1,6 +1,5 @@
 #input data user
 
-#data input pasti string
 data1 = input("enter your name:")
 print("Hello "+ data1 + "!" , type(data1))
 data2 = input("your origin: ")
