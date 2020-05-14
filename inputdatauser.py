@@ -1,8 +1,8 @@
 #input data user
 
 #data input pasti string
-data = input("input data: ")
-print("data = ", data, "type=", type(data))
+data = input("enter your name:")
+print("Hello ", data, "!")
 
 #jika ingin int, kita casting data lagi :)
 
