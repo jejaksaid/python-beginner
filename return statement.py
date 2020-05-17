@@ -9,3 +9,17 @@ def statement(num):
 
 result = statement(4)
 print(result)
+#
+# print("=======aritmatika sederhana")
+#
+# a = 3
+# b = 3
+# result2 = a * b
+# print( "resutl2 " , result2)
+#
+# print("==================sederhana")
+#
+# def sample(int):
+#    print("Hello " + int)
+#
+# sample("said")
