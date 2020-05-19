@@ -1,5 +1,5 @@
 print('===NOT===')
-a = False
+a = True
 b = not a
 print('data a =', a )
 print('------------------NOT')
