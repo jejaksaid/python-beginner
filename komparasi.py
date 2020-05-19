@@ -1,5 +1,5 @@
 print('===LEBIH BESAR (>) ===')
-x = 6
+x = 5.9
 y = 3
 
 result = x > 7
