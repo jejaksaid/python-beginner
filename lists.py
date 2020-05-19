@@ -8,7 +8,7 @@ print(hero [1:4])
 #list function
 print('=====================list function, .count,.sort,.pop,'
       '.index,.extend,.insert,. remove,.append,.clear,. reverse')
-number = [6,4,22,12,2,1,3]
+number = [4,22,12,2,1,3,2,3,4],[1,2,3,]
 hero = ["zeus", "doom", "ogre", "ogre", "abaddon", "techies"]
 # hero.extend(number) nambah list dengan number
 # hero.append("tide hunter") nambah list
@@ -20,7 +20,7 @@ hero = ["zeus", "doom", "ogre", "ogre", "abaddon", "techies"]
 # number.reverse() mengurutkan dari belakang
 # hero2 = hero.copy() menyalin list
 
-print()
+print(number)
 # print(hero2)
 # print(number)
 # print(number)
