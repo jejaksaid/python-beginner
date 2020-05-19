@@ -14,8 +14,8 @@ else:
 
 print("================and condition")
 is_num = True
-is_big = True
-if is_big and is_num:
+is_num_big = True
+if is_num_big and is_num:
     print("right")
 else:
     print("wrong")
@@ -23,13 +23,13 @@ else:
 print("================and not condition")
 
 is_num  = False
-is_num_big = False
+is_num_big = True
 
 if is_num and is_num_big:
     print("right")
 elif is_num and not(is_num_big):
     print("number but small number")
 elif not(is_num) and (is_num_big):
-    print("not numb but big")
+    print("not number but its big")
 else:
     print("not number and not big")
