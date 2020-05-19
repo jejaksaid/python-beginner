@@ -13,6 +13,6 @@ print(coordinates2)
 # tuple is immutable
 # list is mutable
 list1 = ["age", 22]
-list1.append('years old')
+list1.insert(1, 'years old')
 tuple1 = ("john", list1)
 print(tuple1)
