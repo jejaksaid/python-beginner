@@ -9,4 +9,4 @@ def max_num(num1, num2, num3):
     else:
         return num3
 
-print(max_num(3,4,1))
+print(max_num(40000,1,4))
