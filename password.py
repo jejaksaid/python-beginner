@@ -1,5 +1,5 @@
 import random
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=[:]{};\|,.<>/?"'
+chars = 'abcdefghijklmnopqrstuvwxyasaszABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=[:]{};\|,.<>/?"'
 
 number = input('Number of password? - ')
 number = int(number)
