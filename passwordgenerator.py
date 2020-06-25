@@ -1,13 +1,15 @@
 # Python program to generate random 
 # password using Tkinter module 
-import random 
+import random
+
+import END as END
 import pyperclip 
 from tkinter import *
 from tkinter.ttk import *
 
 # Function for calculation of password 
 def low(): 
-	entry.delete(0, END) 
+	entry.delete(0,  END)
 
 	# Get the length of passowrd 
 	length = var1.get() 
