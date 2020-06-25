@@ -1,5 +1,7 @@
 secret_word = "said"
 guess = ""
+# guess_count = 5
+# guess_limit = 10
 guess_count = 0
 guess_limit = 5
 out_of_guesses = False
@@ -9,7 +11,8 @@ while guess != secret_word and not out_of_guesses:
         guess = input("Enter guess: ")
         guess_count += 1
         if guess != secret_word:
-            print("wrong")
+            # print("wrong!, guess left: ", guess_count)
+            print("wrong!")
         elif guess == secret_word:
             print("true")
     else:
