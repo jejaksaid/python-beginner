@@ -1,4 +1,4 @@
-secret_word = "said"
+secret_word = "12"
 guess = ""
 # guess_count = 5
 # guess_limit = 10
